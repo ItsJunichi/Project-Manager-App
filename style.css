@@ -12,4 +12,18 @@
 html {
   box-sizing: border-box;
 }
+
+body {
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main {
+  background-color: #5b84c4;
+  width: 90vw;
+  height: 90vh;
+}
 /*# sourceMappingURL=style.css.map */

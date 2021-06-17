@@ -1,3 +1,10 @@
+$color-orange-1: #fb9b50;
+$color-orange-2: #f98125;
+$color-blue-1: #5b84c4;
+$color-blue-2: #2c599d;
+$color-blue-2: #193a6f;
+$color-blue-2: #11224d;
+
 * {
   margin: 0;
   padding: 0;
@@ -11,4 +18,18 @@
 
 html {
   box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main {
+  background-color: $color-blue-1;
+  width: 90vw;
+  height: 90vh;
 }

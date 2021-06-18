@@ -5,6 +5,8 @@ $color-blue-2: #2c599d;
 $color-blue-2: #193a6f;
 $color-blue-2: #11224d;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -26,10 +28,68 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  font-family: "Poppins", sans-serif;
 }
 
 main {
-  background-color: $color-blue-1;
+  background-color: #111827;
   width: 90vw;
   height: 90vh;
+}
+
+header {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  .right {
+    display: flex;
+  }
+}
+.paddingl {
+  padding-left: 2rem;
+}
+
+.line1 {
+  height: 3px;
+  width: 30px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+.line2 {
+  height: 3px;
+  width: 30px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+.line3 {
+  height: 3px;
+  width: 30px;
+  background-color: white;
+}
+
+.name {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+.logo {
+  height: 100%;
+  width: 100%;
+}
+
+input[type="text"] {
+  background-color: #1f2937;
+  border-style: none;
+  border-radius: 20px;
+  padding: 0.8rem 15rem 0.8rem 0.8rem;
+  font-size: 1rem;
 }
